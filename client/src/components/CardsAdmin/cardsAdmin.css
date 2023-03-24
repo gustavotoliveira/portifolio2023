@@ -1,0 +1,9 @@
+.containerCardsAdmin {
+    width: 600px;
+    height: 110px;
+    background-color: #222327;
+    margin-bottom: 16px;
+    border-radius: 16px;
+    padding: 8px;
+    color: #FFF;
+}

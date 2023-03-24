@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 160px;
+    height: 100px;
+}
+
+.logo {
+    width: 255px;
+    height: 70px;
+    background-image: url(../../imgs/Portifolio-.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background: #9c7d18;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ul li .link {
+    text-decoration: none;
+}
+
+.navigation ul li .text {
+    color: #000;
+    font-size: 15px;
+    margin-left: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+.navigation ul li .text:hover {
+    color: #9c7d18;
+}

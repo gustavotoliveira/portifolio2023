@@ -1,0 +1,24 @@
+.containerButton {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.button {
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0;
+    background: #10385B;
+    font-family: Segoe UI, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background: #ac9014;
+}

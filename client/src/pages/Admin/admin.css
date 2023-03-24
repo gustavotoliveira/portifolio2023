@@ -1,0 +1,46 @@
+.containerAdmin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloAdmin {
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.inputAdmin {
+    display: flex;
+    width: 600px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+}
+
+.buttonEnviarAdmin {
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0;
+    background: #10385B;
+    font-family: Segoe UI, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 16px;
+}
+
+.buttonEnviarAdmin:hover {
+    background: #ac9014;
+}
+
+.containerAdmin h1 {
+    color: #FFF;
+}
+

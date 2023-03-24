@@ -1,0 +1,103 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerApresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    height: calc(100vh - 200px);
+}
+
+.tituloSobre {
+    font-size: 60px;
+    font-weight: 100;
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.descricao {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 48px;
+    width: 680px;
+}
+
+.iconSobre {
+    position: absolute;
+    font-size: 50px;
+    left: 155px;
+    bottom: 50%;
+}
+
+.animacao {
+    animation: escrevendo 4s steps(40) infinite normal;
+}
+
+@keyframes escrevendo{
+    from {
+        opacity: 1;
+        width: 0;
+    }
+    to {
+        width: 733px;
+        opacity: 1;
+    }
+}
+
+.containerSobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 680px;
+    text-align: center;
+}
+
+.containerSobre h1,h2,h3,h4,h5 {
+    font-size: 35px;
+    padding-top: 16px;
+}
+
+.containerSobre p, span {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.containerSobre strong {
+    font-weight: 600;
+}
+
+.footer {
+    height: 150px;
+}
+
+.voltarTopo {
+    position: fixed;
+    left: 160px;
+    font-size: 50px;
+    color: #9c7d18;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.voltarTopoAnimation {
+    animation: voltarTopoAnimation 0.7s infinite normal;
+}
+
+@keyframes voltarTopoAnimation {
+    from {
+        bottom: 30px;
+    }
+    to {
+        bottom: 35px;
+    }
+}
